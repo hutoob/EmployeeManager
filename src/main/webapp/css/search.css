@@ -1,0 +1,53 @@
+.search_form{
+    margin: 50px auto auto auto;
+    width:620px;
+    height:42px;
+}
+
+/*宸﹁竟杈撳叆妗嗚缃牱寮�*/
+.input_text{
+    width:400px;
+    height: 38px;
+    border:2px solid rgb(0,150,136);
+    border-left: 1px solid rgb(0,150,136);
+    /*娓呴櫎鎺夐粯璁ょ殑padding*/
+    padding:0px;
+
+    /*鎻愮ず瀛楅琛岀缉杩�*/
+    text-indent: 20px;
+
+    /*鍘绘帀钃濊壊楂樹寒妗�*/
+    outline: none;
+
+    /*鐢ㄦ诞鍔ㄨВ鍐冲唴鑱斿厓绱犻敊浣嶅強灏忛棿璺濈殑闂*/
+    float:left;
+}
+
+.input_sub{
+    width:100px;
+    height: 38px;
+    background: rgb(0,150,136);
+
+    /*鍘绘帀submit鎸夐挳榛樿杈规*/
+    border:0px;
+    /*鏀规垚鍙虫诞鍔ㄤ篃鏄彲浠ョ殑*/
+    color:white;/*鎼滅储鐨勫瓧浣撻鑹蹭负鐧借壊*/
+    cursor:pointer;/*榧犳爣鍙樹负灏忔墜*/
+    float:left;
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+}
+.query{
+    /*鐢╠iv鐨勬牱寮忎唬鏇縮elect鐨勬牱寮�*/
+    width: 100px;
+    height: 38px;
+    /*border-radius: 5px;*/
+    /*鐩掑瓙闃村奖淇グ浣滅敤,鑷繁闅忔剰*/
+    /* box-shadow: 0 0 5px #ccc;*/
+    border: 2px solid rgb(0,150,136);
+    float:left;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    border-right: 1px solid rgb(0,150,136);
+    text-indent: 15px;
+}
